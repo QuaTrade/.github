@@ -1,40 +1,40 @@
 # Quantum Trading
 
-**Исследовательская платформа** для поиска реального торгового преимущества при
-строгой дисциплине против **переобучения** и **систематической ошибки отбора**
-(selection bias). Платформа существует не для того, чтобы найти «красивый»
-бэктест, а чтобы отличить настоящий эффект от случайного — и не дать
-переоптимизированной гипотезе пройти дальше.
+A **research platform** for finding a real trading edge while strictly
+disciplining against **overfitting** and **systematic selection bias**. The point
+is not to produce a pretty backtest — it is to tell a genuine effect from a lucky
+one, and to stop an over-optimized hypothesis from going any further.
 
-## Как устроен путь идеи
+## How an idea travels
 
-Каждая гипотеза проходит один и тот же конвейер; пройти его можно только в одну
-сторону, и каждый шаг оставляет след:
+Every hypothesis goes through the same pipeline; it only moves one way, and each
+step leaves a trail:
 
 ```
-идея → гипотеза → данные → скрининг → валидация → бумага → live → мониторинг → исследования
+idea → hypothesis → data → screening → validation → paper → live → monitoring → research
 ```
 
-## Слои платформы
+## Platform layers
 
-| Слой | Назначение |
+| Layer | Purpose |
 |---|---|
-| **Методология** | Управляющие документы и правила-игры: протокол валидации, реестр гипотез, учёт испытаний. Им подчиняется весь остальной код. |
-| **Данные** | Append-only приём рыночных данных и зоны качества (RAW → CLEAN → RESEARCH). Принцип «флагировать, не править»: сырьё никогда не переписывается. |
-| **Учёт** | Детерминированный учёт бэктестов и дедупликация конфигураций — источник правды для статистических гейтов. |
-| **Инфраструктура** | Воспроизводимое облачное развёртывание по принципу «образы по пину»: инфраструктура знает расписание, а не код приложений. |
-| **Знания** | Дистилляция книг и статей в верифицированные шпаргалки, питающие методологию. |
+| **Methodology** | Governing documents and rules of the game: validation protocol, hypothesis registry, trial accounting. Everything else obeys them. |
+| **Data** | Append-only market-data ingestion and quality zones (RAW → CLEAN → RESEARCH). "Flag, don't fix" — raw data is never rewritten. |
+| **Accounting** | Deterministic backtest accounting and config deduplication — the source of truth for the statistical gates. |
+| **Infrastructure** | Reproducible cloud deployment by image pin: infrastructure knows the schedule, not the application code. |
+| **Knowledge** | Distillation of books and papers into verified cheatsheets that feed the methodology. |
 
-## Принципы
+## Principles
 
-- **Пре-регистрация** — гипотезы и известные методологические пробелы
-  фиксируются *до* факта, чтобы ничего нельзя было оправдать задним числом.
-- **Append-only** — скачать, ничего не потерять, оставить след.
-- **Единый гейт качества** — одни и те же проверки локально, в pre-commit и в CI.
-- **Conventional Commits + авто-релиз** — версии и changelog ведутся машиной.
-- **Решения через ADR** — архитектурные решения неизменяемы и заменяются новыми,
-  а не правятся задним числом.
+- **Pre-registration** — hypotheses and known methodology gaps are recorded
+  *before* the fact, so nothing can be justified after the result is in.
+- **Append-only** — download, lose nothing, leave a trail.
+- **A single quality gate** — the same checks locally, in pre-commit, and in CI.
+- **Conventional Commits + automated releases** — versions and changelogs are
+  machine-maintained.
+- **Decisions via ADRs** — architectural decisions are immutable and superseded
+  by new ones, never edited in place.
 
 ---
 
-Репозитории организации приватные.
+The organization's repositories are private.
