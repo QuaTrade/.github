@@ -1,12 +1,12 @@
-# .github — публичный профиль и community-health дефолты
+# .github — public profile and community-health defaults
 
-Спец-репозиторий организации **QuaTrade** (**публичный**). Содержит:
+The **QuaTrade** organization's special repository (**public**). It contains:
 
-- [`profile/README.md`](profile/README.md) — **публичная** страница организации
-  (виден всем; намеренно дискретный, без чувствительных деталей).
+- [`profile/README.md`](profile/README.md) — the **public** organization profile
+  (visible to everyone; intentionally discreet, with no sensitive details).
 - [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md),
-  [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — org-уровневые community-health
-  файлы, дефолт для репозиториев без собственных.
+  [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — org-level community-health files,
+  used as defaults for repositories without their own.
 
-Расширенная страница для участников организации (member-view) живёт в отдельном
-приватном репозитории `.github-private`. Прикладного кода нет.
+The extended profile for organization members (member view) lives in a separate
+private repository, `.github-private`. No application code here.

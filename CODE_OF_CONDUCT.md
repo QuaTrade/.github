@@ -1,53 +1,53 @@
-# Кодекс поведения
+# Code of Conduct
 
-## Наше обязательство
+## Our pledge
 
-Мы — участники и сопровождающие — обязуемся сделать участие в проектах
-организации свободным от притеснений для всех, независимо от возраста, телосложения,
-видимой или невидимой инвалидности, этнической принадлежности, пола,
-гендерной идентичности и самовыражения, уровня опыта, образования,
-социально-экономического статуса, национальности, внешности, расы, религии или
-сексуальной идентичности и ориентации.
+We — members and maintainers — pledge to make participation in the organization's
+projects a harassment-free experience for everyone, regardless of age, body size,
+visible or invisible disability, ethnicity, sex characteristics, gender identity
+and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-Мы обязуемся вести себя так, чтобы способствовать открытому, дружелюбному,
-многообразному, инклюзивному и здоровому сообществу.
+We pledge to act in ways that foster an open, welcoming, diverse, inclusive, and
+healthy community.
 
-## Наши стандарты
+## Our standards
 
-Примеры поведения, которое создаёт здоровую среду:
+Examples of behavior that contributes to a healthy environment:
 
-- уважение к чужому мнению, точке зрения и опыту;
-- конструктивная подача и принятие обратной связи;
-- признание ошибок и извинения перед пострадавшими;
-- ориентация на общее благо, а не только на личный интерес.
+- respect for differing opinions, viewpoints, and experiences;
+- giving and gracefully accepting constructive feedback;
+- accepting responsibility, apologizing to those affected by our mistakes;
+- focusing on what is best for the community, not just for ourselves.
 
-Примеры неприемлемого поведения:
+Examples of unacceptable behavior:
 
-- сексуализированные высказывания, образы или внимание;
-- троллинг, оскорбления, уничижительные комментарии, личные и политические нападки;
-- публичные или приватные притеснения;
-- публикация чужой приватной информации без явного разрешения;
-- иное поведение, неуместное в профессиональной среде.
+- sexualized language or imagery, and unwelcome sexual attention;
+- trolling, insulting or derogatory comments, personal or political attacks;
+- public or private harassment;
+- publishing others' private information without explicit permission;
+- other conduct that would be inappropriate in a professional setting.
 
-## Ответственность за соблюдение
+## Enforcement responsibilities
 
-Сопровождающие отвечают за разъяснение и применение стандартов и принимают
-справедливые корректирующие меры в ответ на неприемлемое поведение. Они вправе
-удалять, редактировать или отклонять комментарии, коммиты, код, правки и иные
-вклады, не соответствующие настоящему Кодексу.
+Maintainers are responsible for clarifying and enforcing the standards and will
+take fair corrective action in response to unacceptable behavior. They have the
+right to remove, edit, or reject comments, commits, code, edits, and other
+contributions that do not align with this Code of Conduct.
 
-## Область действия
+## Scope
 
-Кодекс действует во всех пространствах проектов организации, а также когда
-участник официально представляет проект или сообщество.
+This Code applies within all project spaces of the organization, and when an
+individual is officially representing the project or community.
 
-## Применение
+## Enforcement
 
-О случаях неприемлемого поведения можно сообщить **приватно владельцу
-организации**. Все жалобы рассматриваются оперативно и справедливо; приватность
-сообщившего соблюдается.
+Instances of unacceptable behavior may be reported **privately to the
+organization owner**. All complaints are reviewed promptly and fairly, and the
+reporter's privacy is respected.
 
-## Атрибуция
+## Attribution
 
-Кодекс адаптирован из [Contributor Covenant](https://www.contributor-covenant.org),
-версия 2.1.
+This Code of Conduct is adapted from the
+[Contributor Covenant](https://www.contributor-covenant.org), version 2.1.

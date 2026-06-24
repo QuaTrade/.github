@@ -1,31 +1,32 @@
-# Контрибьютинг
+# Contributing
 
-Общие правила для репозиториев организации. Это **org-уровневый дефолт** —
-у каждого репозитория есть собственный `CONTRIBUTING.md` с деталями; при
-расхождении приоритет за ним.
+General rules for the organization's repositories. This is an **org-level
+default** — each repository has its own `CONTRIBUTING.md` with the details, which
+takes precedence on any conflict.
 
-## Единый тулчейн
+## A single toolchain
 
-Кодовые репозитории платформы следуют одному стандарту:
+The platform's code repositories follow one standard:
 
-- **`uv`** — единственный менеджер пакетов (`pyproject.toml` + `uv.lock`); без
-  `requirements.txt` и без ручной активации `.venv`.
-- **`make`** — оркестрация: любую задачу запускают через `make <target>`, а не
-  вызовом инструментов напрямую (версии и флаги совпадают локально, в pre-commit
-  и в CI).
-- **`make check`** — единый гейт качества. Один и тот же набор проверок локально,
-  в pre-commit и в CI; адаптирован под содержимое репозитория.
-- **pre-commit** — трёхуровневая защита: локально → pre-commit → CI.
-- **Conventional Commits** — обязательны; формат заголовка: английский префикс +
-  русский subject (например, `feat(scope): добавить порог`). Версии и
-  `CHANGELOG.md` ведёт `python-semantic-release` — руками не трогать.
+- **`uv`** — the only package manager (`pyproject.toml` + `uv.lock`); no
+  `requirements.txt`, no manual `.venv` activation.
+- **`make`** — orchestration: every task is run via `make <target>`, not by
+  calling tools directly (versions and flags stay in sync across local,
+  pre-commit, and CI).
+- **`make check`** — the single quality gate. The same set of checks runs
+  locally, in pre-commit, and in CI; it is adapted to each repository's content.
+- **pre-commit** — three layers of defense: local → pre-commit → CI.
+- **Conventional Commits** — mandatory; header format is an English prefix plus a
+  Russian subject (e.g. `feat(scope): добавить порог`). Versions and
+  `CHANGELOG.md` are managed by `python-semantic-release` — never edit them by
+  hand.
 
-## Поток работы
+## Workflow
 
-1. Заведите ветку от ветки по умолчанию (не коммитьте в неё напрямую).
-2. Убедитесь, что `make check` зелёный локально.
-3. Откройте PR; заголовок — в Conventional Commits.
-4. Дождитесь зелёного CI и ревью.
+1. Branch off the default branch (do not commit to it directly).
+2. Make sure `make check` is green locally.
+3. Open a PR; the title follows Conventional Commits.
+4. Wait for green CI and review.
 
-Подробности по конкретному репозиторию — в его собственных `CONTRIBUTING.md`,
-`README.md` и `CLAUDE.md`.
+For repository-specific details, see that repository's own `CONTRIBUTING.md`,
+`README.md`, and `CLAUDE.md`.

@@ -1,29 +1,28 @@
-# Политика безопасности
+# Security Policy
 
-## Сообщение об уязвимостях
+## Reporting a vulnerability
 
-Если вы обнаружили уязвимость в одном из репозиториев организации, **сообщите
-приватно** — не открывайте публичный issue, pull request и не описывайте проблему
-в открытых обсуждениях, пока она не исправлена.
+If you discover a vulnerability in one of the organization's repositories,
+**report it privately** — do not open a public issue or pull request, and do not
+describe the problem in public discussions until it has been fixed.
 
-Предпочтительный канал — приватное оповещение **GitHub Security Advisories**
-(вкладка *Security → Report a vulnerability* в соответствующем репозитории).
-Если он недоступен — обратитесь приватно к **владельцу организации**.
+The preferred channel is a private **GitHub Security Advisory** (the
+*Security → Report a vulnerability* tab in the affected repository). If that is
+unavailable, contact the **organization owner** privately.
 
-В сообщении по возможности укажите:
+Where possible, include:
 
-- какой репозиторий и версию/коммит затрагивает проблема;
-- шаги воспроизведения или proof-of-concept;
-- оценку влияния (что именно компрометируется).
+- which repository and version/commit is affected;
+- reproduction steps or a proof of concept;
+- an impact assessment (what exactly is compromised).
 
-## Область действия
+## Scope
 
-Политика распространяется на все репозитории организации. Организация и её
-репозитории **приватные**, поэтому раскрытие деталей уязвимости третьим лицам без
-согласования не допускается.
+This policy applies to all of the organization's repositories. The organization
+and its repositories are **private**, so disclosing vulnerability details to
+third parties without coordination is not permitted.
 
-## Процесс
+## Process
 
-Сообщения рассматриваются приватно; исправление и согласованное раскрытие
-происходят до публикации любых деталей. Мы признательны за ответственное
-информирование.
+Reports are handled privately; the fix and any coordinated disclosure happen
+before any details are made public. We appreciate responsible reporting.
